@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #0B4F6C;
+    --secondary-color: #01BAEF;
+    --accent1-color: #FBFBFF;
+    --accent2-color: #757575;
+
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Width */
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Body */
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+/* Headings */
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    padding: 16px;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+}
+
+/* Hero Image */
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero Heading */
+
+.hero h1 {
+    position: absolute;
+
+    top: 20px;
+
+    width: 100%;
+
+    padding: 16px;
+
+    text-align: center;
+
+    background-color: rgba(11, 79, 108, 0.8);
+
+    color: white;
+}
+
+/* Hero Article */
+
+.hero article {
+    position: absolute;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 16px;
+}
+
+/* Article Image */
+
+.hero article img {
+    float: right;
+
+    width: 125px;
+
+    margin-left: 15px;
+}
+
+/* Sections */
+
+section {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
+}
