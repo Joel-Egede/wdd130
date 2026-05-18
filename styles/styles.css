@@ -1,55 +1,77 @@
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation */
+
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: #222;
+    padding: 1rem;
 }
 
 nav a {
     color: white;
-    padding: 20px;
-    display: block;
+    text-decoration: none;
+    margin-right: 15px;
 }
 
-h1 {
-    color: steelblue;
-}
-
-main {
-    max-width: 800px;
-}
+/* Main Image */
 
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 
+/* Aside */
+
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid #333;
-    padding: 1rem;
-    background-color: #eeeeee;
-    color: #000;
+    width: 20em;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+    width: 100%;
+    max-width: 400px;
+    display: block;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-}
-
-p {
-    padding: 0;
-}
+/* Footer */
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: #333;
 }
