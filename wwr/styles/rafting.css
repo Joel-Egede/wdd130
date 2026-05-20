@@ -37,14 +37,14 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 50px 1fr;
     align-items: center;
     background-color: var(--primary-color);
     padding: 1rem;
 }
 
 header img {
-    width: 140px;
+    width: 100px;
 }
 
 /* Navigation */
