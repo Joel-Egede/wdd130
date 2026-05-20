@@ -114,9 +114,9 @@ h2 {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
     margin-left: 1rem;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* Sections */
