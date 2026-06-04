@@ -179,6 +179,7 @@ footer {
 
 .socialmedia {
     display: flex;
+    justify-content: flex-end;
     gap: 15px;
 }
 
@@ -202,11 +203,6 @@ footer {
     display: inline-block;
     margin: 1rem;
     text-align: center;
-}
-
-.employees img {
-    width: 150px;
-    height: auto;
 }
 
 form {
